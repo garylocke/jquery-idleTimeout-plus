@@ -833,7 +833,7 @@
             '<h4>' + config.lockUsername + '</h4>' +
             '<p>' + config.lockMessage + '</p>' +
             '<div class="input-group">' +
-              '<input id="jitp-lock-pass" type="password" class="form-control" placeholder="Password..."/>' +
+              '<input id="jitp-lock-pass" type="password" class="form-control" placeholder="Password..." autocomplete="off"/>' +
               '<span class="input-group-btn">' +
                 '<button id="jitp-lock-unlock" class="btn btn-primary" type="button">' + config.lockUnlockButton +
                 '</button>' +
@@ -863,7 +863,7 @@
             '<h2>' + config.lockUsername + '</h2>' +
             '<p>' + config.lockMessage + '</p>' +
             '<div>' +
-              '<input id="jitp-lock-pass" type="text" class="form-control" placeholder="Password..."/>' +
+              '<input id="jitp-lock-pass" type="text" class="form-control" placeholder="Password..." autocomplete="off"/>' +
             '</div>' +
             '<button id="jitp-lock-unlock" type="button">' + config.lockUnlockButton + '</button>' +
             '<a id="jitp-lock-logout" href="javascript:;">' + logoutMsg + '</a>' +
