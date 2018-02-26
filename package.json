@@ -1,6 +1,6 @@
 {
   "name": "@garylocke/jquery-idletimeout-plus",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "description": "User idle detector with session keep-alive, warning dialog, lock screen, url redirection and support for multiple windows and tabs.",
   "main": "dist/jquery-idleTimeout-plus.js",
   "homepage": "https://github.com/garylocke/jquery-idleTimeout-plus",
