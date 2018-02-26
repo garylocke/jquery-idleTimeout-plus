@@ -15,7 +15,7 @@
  *      Multi-window support requires JQuery Storage API
  *      Dialogs require either jQueryUI or Bootstrap
  *
- * version 0.10.0
+ * version 0.10.1
  **/
 
 (function(root, factory) {
