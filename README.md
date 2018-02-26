@@ -16,6 +16,10 @@ User idle detector with session keep-alive, warning dialog, lock screen, url red
 
 `npm install @garylocke/jquery-idleTimeout-plus`
 
+**Bower**
+
+`bower install garylocke.jquery-idleTimeout-plus`
+
 Adding to your website
 ```
 <head>
