@@ -57,7 +57,7 @@
     // Auto-Url settings              (NOTE: if a callback is defined auto url redirection will only occur if the callback returns true)
     redirectUrl:        '/timed-out', // URL if no action is taken after the warning/lock screen timeout
     logoutUrl:          '/logout',    // URL if the user clicks "Logout" on the warning/lock screen
-    logoutAutoUrl:      'null',       // URL for secondary tabs that received an automatic logout trigger (to help avoid race conditions)
+    logoutAutoUrl:      null,       // URL for secondary tabs that received an automatic logout trigger (to help avoid race conditions)
     redirectCallback:   false,
     logoutCallback:     false,
     logoutAutoCallback: false,
@@ -119,7 +119,7 @@
     config = $.extend(config, userConfig);
     config = $.extend(config, testingConfig, userConfig); /* --strip_testing-- */
 
-    if (config.logoutAutoUrl === null) config.logoutAutoUrl = config.logoutUrl;
+    if (config.logoutAutoUrl == null) config.logoutAutoUrl = config.logoutUrl;
     //--Convert secs to millisecs
     config.idleTimeLimit *= 1000;
     config.idleCheckHeartbeat *= 1000;
